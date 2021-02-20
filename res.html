@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Practice</title>
+	<link rel="stylesheet" href="css/res.css" />
+</head>
+
+<body>
+	<div class="container">
+		<form action="welcome.html" onsubmit="return validate()">
+			<fieldset>
+				<legend>login page</legend>
+				<div class="alert">
+					<span id="incorrect"></span>					
+				</div>				
+				<div class="wrapper">
+					<label for="uname">Username</label>
+					<input type="text" id="uname" placeholder="username">
+					<label for="pass">Passowrd</label>
+					<input type="password" id="pass" placeholder="password">					
+				</div>				
+				<button type="submit">submit</button>
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
